@@ -1,6 +1,6 @@
 FROM java:8-alpine
 
-ENV SONAR_SCANNER_VERSION=2.8 \
+ENV SONAR_SCANNER_VERSION=3.2.0.1227 \
     SONAR_SCANNER_HOME=/opt/sonar-scanner
 
 RUN set -x \
