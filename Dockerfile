@@ -1,4 +1,4 @@
-FROM java:8-alpine
+FROM java:8u111-alpine
 
 ENV SONAR_SCANNER_VERSION=3.2.0.1227 \
     SONAR_SCANNER_HOME=/opt/sonar-scanner \
