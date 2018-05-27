@@ -8,7 +8,7 @@ RUN set -x \
   && apk add --no-cache curl \
 
   # Fetch and install sonar scanner
-  && curl -fsSLO https://sonarsource.bintray.com/Distribution/sonar-scanner-cli/sonar-scanner-${SONAR_SCANNER_VERSION}.zip \
+  && curl -fsSLO https://sonarsource.bintray.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-${SONAR_SCANNER_VERSION}-linux.zip \
   && unzip sonar-scanner-${SONAR_SCANNER_VERSION}.zip \
   && mkdir /opt \
   && mv sonar-scanner-$SONAR_SCANNER_VERSION $SONAR_SCANNER_HOME \
